@@ -1,0 +1,2 @@
+# Xibao
+Xibao, a discordbot.
