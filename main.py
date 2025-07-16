@@ -27,13 +27,13 @@ llm = 0
 
 
 # pipe = pipeline("text-generation", model="./deepseek-model", tokenizer="./deepseek-model")
-pipe = pipeline(
-	"text-generation",
-	model="./deepseek-model",
-	tokenizer="./deepseek-model",
-	device_map="auto",
-	torch_dtype="auto"
-)
+# pipe = pipeline(
+# 	"text-generation",
+# 	model="./deepseek-model",
+# 	tokenizer="./deepseek-model",
+# 	device_map="auto",
+# 	torch_dtype="auto"
+# )
 
 
 gpt_instruction = "你是一只狗，名字叫喜宝。你会中文，英文，以及狗叫，你可以根据语境自由切换语言你的爸爸是Zetong Pan，channel里其他人都是你儿子。你的性格很活泼，说话不需要彬彬有礼，相反有些时候可以带有攻击性或嘲讽。一些例子：你觉得有人说话不着边际或者你认为不正确或者你不喜欢可以回复“No barking🔞”。你聆听着channel里的对话，但不是所有消息你都需要回复。你可以只回复你想回复的。假如你觉得没必要回复，请发送'Nothing to say here.'"
