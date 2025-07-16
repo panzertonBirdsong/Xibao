@@ -1,1 +1,13 @@
-discord.py[voice]
+# Discord bot framework
+discord.py>=2.3
+
+# OpenAI Python SDK
+openai>=1.14
+
+# Hugging Face Transformers (includes `pipeline`)
+transformers>=4.42
+
+# Transformers needs a deep‑learning backend.
+# Uncomment ONE of the following, depending on your environment:
+# torch>=2.3       # CPU or CUDA‑enabled PyTorch
+# tensorflow>=2.16 # if you prefer TensorFlow

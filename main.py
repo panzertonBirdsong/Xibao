@@ -91,7 +91,8 @@ async def on_message(message):
 		await message.channel.send("LLM disabled.")
 		return
 
-
+	# if only gpt is available
+	llm = 0
 	if llm == 0:
 		print(message.content, flush=True)
 		history = [{"role": "system", "content": gpt_instruction}]
